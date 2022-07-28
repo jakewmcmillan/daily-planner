@@ -5,4 +5,4 @@ function displayTime() {
     var rightNow = moment().format('LLLL');
     currentDayEl.text(rightNow);
 }
-displayTime();
+(setInterval(displayTime, 1000));
