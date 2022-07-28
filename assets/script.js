@@ -10,6 +10,16 @@ function displayTime() {
     currentDayEl.text(rightNow);
 }
 
+save.onclick = function() {
+    var reminder = note;
+    
+    localStorage.setItem(reminder);
+    location.reload();
 
+};
+for (let i=0; i < localStorage.length; i++) {
+    var reminder = localStorage.key(i)
+    var value = localStorage.getItem(reminder);
+}
 
 (setInterval(displayTime, 1000));
