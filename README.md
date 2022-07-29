@@ -4,6 +4,5 @@ I built this project as a simple tool to allow a user to keep an up to date reco
 
 [Link: https://jakewmcmillan.github.io/daily-planner/](https://jakewmcmillan.github.io/daily-planner/)
 
-    ```md
-    ![Screenshot:](assets/images/screenshot.png)
-    ```
+
+![Screenshot:](assets/images/screenshot.png)
