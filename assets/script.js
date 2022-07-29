@@ -15,6 +15,7 @@ var threeOclock = document.getElementById("hour-7");
 var fourOclock = document.getElementById("hour-8");
 var fiveOclock = document.getElementById("hour-9");
 var timeBlocks = [nineOclock, tenOclock, elevenOclock, twelveOclock, oneOclock, twoOclock, threeOclock, fourOclock, fiveOclock];
+var timeBlocksNumber = [];
 
 function displayTime() {
     var rightNow = moment().format('LLLL');
