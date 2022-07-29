@@ -1,5 +1,5 @@
 var currentDayEl = $('#currentDay');
-var currentTimeEL = moment().format('LL');
+var currentTimeEL = moment().format('H HH');
 var task = document.querySelector('.entry');
 var saveButton = document.querySelector('.saveBtn');
 var note = document.getElementById("note");
